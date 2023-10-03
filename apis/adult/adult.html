@@ -1,17 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adult</title>
 </head>
+
 <body>
-    Just a place where I save my adult APIs
 
-    <a href="../../index.html">"Home"</a>
-    <a href="../apis.html">APIs dir</a>
 
-    An API
-    <a href="./kamaPos.json">kamaPos myJson</a>
+    <a href="./kamaPos.json">kamaPos</a>
+
+    <form action="">
+        
+        <h1>add pos</h1>
+
+        <div id="imageDiv">
+            <h2>Images</h2>
+            <img id="kamaImg1" alt="kama img uploaded" width="100" height="100">
+            <input type="file" onchange="document.getElementById('kamaImg1').src = window.URL.createObjectURL(this.files[0])" required>
+        </div>
+
+        <div id="titleDiv">
+            <h2>title</h2>
+            <label >
+                <h4>Title PT</h4>
+                <input type="text" name="title_pt" id="title_pt"  autofocus required>
+            </label>
+            
+            <label >
+                <h4>Title ENG</h4>
+                <input type="text" name="title_eng" id="title_eng" required>
+            </label>
+        </div>
+
+        <div id="descDiv">
+            <h2 >description</h2>
+            <label >
+                <h4>Title PT</h4>
+                <input type="text" name="title_pt" id="title_pt"  >
+            </label>
+            
+            <label >
+                <h4>Title ENG</h4>
+                <input type="text" name="title_eng" id="title_eng">
+            </label>
+        </div>
+
+    </form>
 </body>
+
+<style>
+    *, html, body{
+        background-color: rgb(94, 98, 99);
+        margin:1rem;
+    }
+    #titleDiv {
+        border-style: dashed;
+        border-color: aqua;
+    }
+    #descDiv {
+        border-style: dashed;
+        border-color: rgb(255, 0, 0);
+    }
+    #imageDiv{
+        border-color: greenyellow;
+        border-style: dashed;
+    }
+
+
+</style>
+
 </html>
