@@ -1,36 +1,44 @@
 [
-    {
-      "images": ["https://picsum.photos/200", "https://picsum.photos/200"],
-      "titles": {
-        "pt": "Título em Português 1",
-        "eng": "Title in English 1"
-      },
-      "descriptions": {
-        "pt": "Descrição em Português 1",
-        "eng": "Description in English 1"
-      }
+  {
+    "images": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "titles": {
+      "pt": "Título em Português 1",
+      "eng": "Title in English 1"
     },
-    {
-      "images": ["https://picsum.photos/200", "https://picsum.photos/200"],
-      "titles": {
-        "pt": "Título em Português 2",
-        "eng": "Title in English 2"
-      },
-      "descriptions": {
-        "pt": "Descrição em Português 2",
-        "eng": "Description in English 2"
-      }
-    },
-    {
-      "images": ["https://picsum.photos/200", "https://picsum.photos/200"],
-      "titles": {
-        "pt": "Título em Português 3",
-        "eng": "Title in English 3"
-      },
-      "descriptions": {
-        "pt": "Descrição em Português 3",
-        "eng": "Description in English 3"
-      }
+    "descriptions": {
+      "pt": "Descrição em Português 1",
+      "eng": "Description in English 1"
     }
-  ]
-  
+  },
+  {
+    "images": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "titles": {
+      "pt": "Título em Português 2",
+      "eng": "Title in English 2"
+    },
+    "descriptions": {
+      "pt": "Descrição em Português 2",
+      "eng": "Description in English 2"
+    }
+  },
+  {
+    "images": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ],
+    "titles": {
+      "pt": "Título em Português 3",
+      "eng": "Title in English 3"
+    },
+    "descriptions": {
+      "pt": "Descrição em Português 3",
+      "eng": "Description in English 3"
+    }
+  }
+]
